@@ -103,7 +103,7 @@ main > h3{
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 80px;
-  gap: 150px;
+  /* gap: 150px; */
 }
 .hero h1{
   font-size: 5.5em;
@@ -133,6 +133,6 @@ main > h3{
   transform: translateX(-50%);
 }
 .image img:last-child{
-  width: 600px;
+  width: 400px;
   z-index: -1;
 }
