@@ -122,3 +122,6 @@ main > h3{
 .hero h1 img{
   width: 40px;
 }
+.image img:last-child{
+  width: 300px;
+}
