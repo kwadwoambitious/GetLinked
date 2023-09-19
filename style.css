@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "ClashDisplay";
+  src: url(fonts/FontsFree-Net-ClashDisplay-Variable.ttf) format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/FontsFree-Net-Montserrat-Regular-1.ttf) format("truetype");
+  font-weight: 400;
+}
+:root {
+  --dark-blue-color: #150e28;
+  --purple-color: #d434fe;
+  --violet-color: #903aff;
+  --white-color: #ffffff;
+  --pink-color: #ff00cc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--dark-blue-color);
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body a{
+  text-decoration: none;
+}
+main{
+  position: relative;
+  height: 100vh;
+  /* overflow-y: hidden; */
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+  border-bottom: 1px solid gray;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a {
+  color: var(--white-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+nav ul li:last-child{
+  margin-left: 90px;
+  margin-right: 0;
+  background: linear-gradient(90deg, var(--pink-color), var(--purple-color), var(--violet-color));
+  padding: 13px 40px;
+  border-radius: 5px;
+}
+header h2 {
+  color: var(--white-color);
+  font-size: 3.5em;
+  font-family: "ClashDisplay", sans-serif;
+  font-weight: 700;
+}
+header h2 span {
+  color: var(--purple-color);
+}
+.flare-1{
+  position: absolute;
+  left: 30%;
+  top: -140px;
+  transform: translateX(-50%);
+  width: 900px;
+  z-index: -1;
+  opacity: 0.5;
+}
+.star-1{
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  width: 17px;
+}
+main > h3{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.8em;
+  color: var(--white-color);
+  font-style: italic;
+  text-align: right;
+  padding: 20px 50px 0 30px;
+  letter-spacing: 0.1rem;
+  height: 70px;
+  position: relative;
+}
+.vector-1{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 50px;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 80px;
+  gap: 150px;
+}
+.hero h1{
+  font-size: 6em;
+  color: var(--white-color);
+  max-width: 500px;
+  width: 100%;
+  font-family: "ClashDisplay", sans-serif;
+  font-weight: 700;
+}
+.hero h1 span{
+  color: var(--purple-color);
+}
+.image-1{
+  width: 400px;
+}
