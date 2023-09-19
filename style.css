@@ -31,7 +31,6 @@ body a{
 main{
   position: relative;
   height: 100vh;
-  /* overflow-y: hidden; */
 }
 header {
   display: flex;
