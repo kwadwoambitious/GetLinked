@@ -108,7 +108,7 @@ main > h3{
 .hero h1{
   font-size: 5.5em;
   color: var(--white-color);
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
   font-family: "ClashDisplay", sans-serif;
   font-weight: 700;
@@ -124,6 +124,7 @@ main > h3{
 }
 .image{
   position: relative;
+  width: 500px;
 }
 .image img{
   position: absolute;
